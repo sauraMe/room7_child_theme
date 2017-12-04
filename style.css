@@ -1,0 +1,46 @@
+/*
+ Theme Name: Room7
+ Description: The custom theme Room7 using the parent theme Twenty Thirteen.
+ Author: saura_me
+ Author URI: https://saura.me
+ Template: twentysixteen
+ Version: 1
+ Tags: pruebas, pepesaura, wpcartagena
+ */
+ 
+ /* Estilos de texto */
+ 
+ .entry-title,
+ .site-title,
+ .page-title,
+ .post-navigation .post-title,
+ .comment-reply-title,
+ button,
+ input[type="submit"] {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: normal;
+ }
+
+.widget .widget-title,
+.page-title {
+     font-family: 'Roboto', sans-serif;
+ }
+ 
+.site-title {
+    font-size: 3rem;     
+ }
+
+ .site-title,
+ .post-navigation .post-title {
+     font-weight: normal;
+ }
+ 
+ .entry-title {
+    font-weight: lighter;
+ }
+ 
+.page-title {
+     color:#007acc;
+ }
+ 
+ 
