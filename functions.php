@@ -13,10 +13,7 @@ function my_theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
-?>
 
-
-<?php
 /* Para encolar fuentes http://www.wpbeginner.com/wp-themes/how-add-google-web-fonts-wordpress-themes/ */
 
 function wpb_add_google_fonts() {
@@ -25,4 +22,3 @@ wp_enqueue_style( 'wpb-google-fonts', 'http://fonts.googleapis.com/css?family=Op
 }
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
-?>
